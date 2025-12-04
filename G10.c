@@ -10,7 +10,6 @@ int main()
 
     printf("Ready...\n");
     msleep(3000);
-    
     while(1)
     {
         if(analog(sensor_port) > threshold)
